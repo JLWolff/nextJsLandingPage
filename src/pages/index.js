@@ -15,6 +15,7 @@ import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 
 export default function IndexPage() {
+  console.log('aaaaaaaaaaaaaaa')
   return (
     <ThemeProvider theme={theme}>
         <Layout>
