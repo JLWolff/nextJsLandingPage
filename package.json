@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "postbuild": "next-sitemap"
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
   },
   "dependencies": {
     "@types/theme-ui": "^0.6.0",
