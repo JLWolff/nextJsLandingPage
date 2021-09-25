@@ -10,7 +10,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
-            <Image src={FooterLogo} alt="Logo" />
+            <Image src={process.env.ISDEV ? "" : "/nextJsLandingPage" + FooterLogo} alt="Logo" />
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>

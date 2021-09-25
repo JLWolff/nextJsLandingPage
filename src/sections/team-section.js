@@ -190,7 +190,7 @@ export default function TeamSection() {
           {data.map((item) => (
             <TeamCard 
               key={item.id}
-              src={item.imgSrc}
+              src={process.env.ISDEV ? "" : "/nextJsLandingPage" + item.imgSrc}
               altText={item.altText}
               title={item.title}
               designation={item.designation}

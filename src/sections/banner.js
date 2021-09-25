@@ -19,7 +19,7 @@ export default function Banner() {
           <Button variant="primary">Explore</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner"/>
+          <Image src={process.env.ISDEV ? "" : "/nextJsLandingPage" + BannerImg} alt="banner"/>
         </Box>
       </Container>
     </section>

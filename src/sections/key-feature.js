@@ -55,7 +55,7 @@ export default function KeyFeature() {
         {data.map((item) => (
           <FeatureCardColumn 
             key={item.id}
-            src={item.imgSrc}
+            src={process.env.ISDEV ? "" : "/nextJsLandingPage" + item.imgSrc}
             alt={item.altText}
             title={item.title}
             text={item.text}
