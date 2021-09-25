@@ -46,7 +46,7 @@ export default function ServiceSection() {
     <section sx={{variant: 'section.services'}}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail }>
-          <Image  src={ServiceThumb} />
+          <Image  src={process.env.ISDEV ? "" : "/nextJsLandingPage" + ServiceThumb} />
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}

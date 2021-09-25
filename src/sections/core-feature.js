@@ -28,9 +28,9 @@ export default function CoreFeature() {
         />
       </Box>
       <Box sx={styles.thumbnail}>
-        <Image src={process.env.ISDEV ? "" : "/nextJsLandingPage" + FeatureThumb} alt="Thumbnail" />
+        <Image src={FeatureThumb} alt="Thumbnail" />
         <Box sx={styles.shapeBox}>
-          <Image src={process.env.ISDEV ? "" : "/nextJsLandingPage" + shapePattern} alt="Shape"/>
+          <Image src={shapePattern} alt="Shape"/>
         </Box>
       </Box>
     </Container>
