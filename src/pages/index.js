@@ -13,10 +13,14 @@ import WorkFlow from '../sections/workflow';
 import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
+import nextConfig from '../../next.config';
 
+const getConfig = nextConfig.basePath
 export default function IndexPage() {
   console.log('aaaaaaaaaaaaaaa')
   console.log(process.env.BASE_PATH)
+  console.log(getConfig)
+
   return (
     <ThemeProvider theme={theme}>
         <Layout>
