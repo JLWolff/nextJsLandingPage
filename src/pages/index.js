@@ -16,6 +16,7 @@ import TestimonialCard from '../sections/testimonial';
 
 export default function IndexPage() {
   console.log('aaaaaaaaaaaaaaa')
+  console.log(process.env.BASE_PATH)
   return (
     <ThemeProvider theme={theme}>
         <Layout>
