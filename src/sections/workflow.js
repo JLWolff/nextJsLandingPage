@@ -65,7 +65,7 @@ export default function WorkFlow() {
 const styles = {
   workflow: {
     backgroundColor: 'primary',
-    backgroundImage: `url(${PatternBG})`,
+    backgroundImage: `url(${process.env.ISDEV ? "" : "/nextJsLandingPage" + PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
