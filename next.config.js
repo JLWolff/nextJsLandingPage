@@ -27,6 +27,7 @@ function getBasePath() {
 
 module.exports = {
     basePath: '/nextJsLandingPage',
+    assetPrefix: '/nextJsLandingPage',
   }
 
 // module.exports = withImages({
