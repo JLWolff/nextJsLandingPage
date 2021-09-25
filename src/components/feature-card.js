@@ -9,7 +9,7 @@ export default function FeatureCard({
 }) {
   return (
     <Box sx={styles.card}>
-      <Image src={process.env.ISDEV ? "" : "/nextJsLandingPage" + src} altText={altText} sx={styles.img} />
+      <Image src={src} altText={altText} sx={styles.img} />
       <Box sx={styles.wrapper}> 
         <Heading sx={styles.wrapper.title}>{title}</Heading>
         <Text sx={styles.wrapper.subTitle}>{text}</Text>
