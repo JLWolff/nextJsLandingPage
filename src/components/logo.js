@@ -5,7 +5,7 @@ import { Link } from 'components/link';
 export default function Logo({ src, ...rest }) {
   return (
     <Link 
-    path="/"
+    path="/nextJsLandingPage"
     sx={{
       variant: 'links.logo',
       display: 'flex',

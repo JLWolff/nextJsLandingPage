@@ -30,7 +30,7 @@ export default function Header({ className }) {
   return (
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={LogoDark} />
+          <Logo src={"/nextJsLandingPage" + LogoDark} />
             <Flex as="nav" sx={styles.nav}>
               {menuItems.map((menuItem, i) => (
                 <Link
