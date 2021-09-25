@@ -35,4 +35,4 @@ module.exports = {
 
 // });
 
-module.exports = withPlugins([optimizedImages], { target: 'serverless' });
+// module.exports = withPlugins([optimizedImages], { target: 'serverless' });
