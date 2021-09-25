@@ -5,7 +5,7 @@ import { Text, Heading, Image, Box, Link } from 'theme-ui';
 export default function TeamCard({ src, altText, title, designation, social }) {
   return (
     <Box sx={styles.card}>
-      <Image src={process.env.BASE_PATH + src} alt={altText} sx={styles.memberThumb}/>
+      <Image src={src} alt={altText} sx={styles.memberThumb}/>
       <Box sx={styles.infoWrapper}>
         <Heading className="info__name" sx={styles.infoWrapper}>
           {title}

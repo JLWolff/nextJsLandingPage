@@ -30,7 +30,7 @@ export default function Header({ className }) {
   return (
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={process.env.BASE_PATH + LogoDark} />
+          <Logo src={LogoDark} />
             <Flex as="nav" sx={styles.nav}>
               {menuItems.map((menuItem, i) => (
                 <Link
